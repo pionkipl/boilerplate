@@ -1,7 +1,8 @@
-$h3-bg-color: tan;
+@import './abstracts/functions';
+@import './abstracts/mixins';
+@import './abstracts/variables';
 
-h3 {
-  background-color: $h3-bg-color;
-  user-select: none;
-  filter: grayscale(50%);
-}
+@import './base/animations';
+@import './base/base';
+@import './base/typography';
+@import './base/utilities';
