@@ -15,6 +15,4 @@ function resize() {
   } else if (w < 576) {
     helper.innerText = "xs";
   } 
-
-
 }
